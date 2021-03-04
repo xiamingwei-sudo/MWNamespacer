@@ -21,15 +21,15 @@ Pod::Spec.new do |s|
 'mw' 命名空间
                        DESC
 
-  s.homepage         = 'Comming soon...'
+  s.homepage         = 'https://github.com/xiamingwei-sudo/MWNamespacer'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'xiamwei@hotmail.com' => 'xiamwei@hotmail.com' }
-  s.source           = { :git => 'Comming soon...', :tag => s.version.to_s }
+  s.author           = { 'XiaMingWei' => 'xiamwei@hotmail.com' }
+  s.source           = { :git => 'https://github.com/xiamingwei-sudo/MWNamespacer.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '9.0'
-
+  s.requires_arc = true
   s.source_files = 'MWNamespacer/Classes/**/*'
   s.frameworks = "Foundation"
   s.swift_version= '5.0'
